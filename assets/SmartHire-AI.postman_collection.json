@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "c2ddeda8-8164-4bf0-9909-a725d9b786d9",
+		"name": "SmartHire-AI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45933947",
+		"_collection_link": "https://ahmedmustafa-3498676.postman.co/workspace/Ahmed-Mustafa's-Workspace~1aa0ab5d-192e-4c43-879d-f48ba4c5e7a7/collection/45933947-c2ddeda8-8164-4bf0-9909-a725d9b786d9?action=share&source=collection_link&creator=45933947"
+	},
+	"item": [
+		{
+			"name": "Welcome-Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/Welcome",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"Welcome"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": ""
+		}
+	]
+}
