@@ -71,12 +71,12 @@ Returns a score from 0–10.
 
 2) Clone Repository
 ```bash 
-$ git clone https://github.com/YOUR_USERNAME/smarthire-ai.git
+git clone https://github.com/YOUR_USERNAME/smarthire-ai.git
 cd smarthire-ai
 ```
 3) Activate the environment:
 ```bash
-$ conda activate smarthire-ai
+conda activate SmartHire-AI
 ```
 
 ### (Optional) Setup you command line interface for better readability
@@ -87,5 +87,10 @@ export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 
 ## Install the required packages
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
+
+$ uvicorn src.backend.app.main:app --reload --host 0.0.0.0 --port 5000
+
+$ lsof -i :5000
+$ kill -9 
