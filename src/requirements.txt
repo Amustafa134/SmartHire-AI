@@ -13,3 +13,4 @@ requests==2.31.0
 tqdm==4.66.4
 regex==2024.5.15
 python-multipart==0.0.9
+aiofiles==25.1.0
